@@ -29,7 +29,7 @@
             const time = document.getElementById('time').value;
 
             // 使用 GET 方法並將參數添加到 URL 中
-            const url = `YOUR_GOOGLE_APPS_SCRIPT_URL?type=call&name=${encodeURIComponent(name)}&time=${encodeURIComponent(time)}`;
+            const url = `https://script.google.com/macros/s/AKfycbznC9ur3syGe3ZxNeTfmRi4ldZjQJQ41QGKIP2AbmMjnntAeXbFtCm97YwcL0VgchyDTQ/exec?type=call&name=${encodeURIComponent(name)}&time=${encodeURIComponent(time)}`;
 
             fetch(url, {
                 method: 'GET',
